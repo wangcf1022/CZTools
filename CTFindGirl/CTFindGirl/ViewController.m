@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property(nonatomic, strong) NSString *name;
+@property(nonatomic, strong) NSString *age;
 @end
 
 @implementation ViewController
