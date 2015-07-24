@@ -12,6 +12,7 @@
 @property(nonatomic, strong) NSString *name;
 @property(nonatomic, strong) NSString *age;
 @property(nonatomic, strong) NSString *address;
+@property(nonatomic, strong) NSString *address1;
 @end
 
 @implementation ViewController
