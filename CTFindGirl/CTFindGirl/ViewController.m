@@ -11,6 +11,7 @@
 @interface ViewController ()
 @property(nonatomic, strong) NSString *name;
 @property(nonatomic, strong) NSString *age;
+@property(nonatomic, strong) NSString *address;
 @end
 
 @implementation ViewController
