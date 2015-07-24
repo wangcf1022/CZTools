@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54BBE9D1B624C6F00DFEFBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D54BBE9C1B624C6F00DFEFBA /* main.m */; };
+		D54BBEA01B624C6F00DFEFBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D54BBE9F1B624C6F00DFEFBA /* AppDelegate.m */; };
+		D54BBEA31B624C6F00DFEFBA /* CTFindGirl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D54BBEA11B624C6F00DFEFBA /* CTFindGirl.xcdatamodeld */; };
+		D54BBEA61B624C6F00DFEFBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54BBEA51B624C6F00DFEFBA /* ViewController.m */; };
+		D54BBEA91B624C6F00DFEFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54BBEA71B624C6F00DFEFBA /* Main.storyboard */; };
+		D54BBEAB1B624C6F00DFEFBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54BBEAA1B624C6F00DFEFBA /* Images.xcassets */; };
+		D54BBEAE1B624C6F00DFEFBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D54BBEAC1B624C6F00DFEFBA /* LaunchScreen.xib */; };
+		D54BBEBA1B624C6F00DFEFBA /* CTFindGirlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54BBEB91B624C6F00DFEFBA /* CTFindGirlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54BBEB41B624C6F00DFEFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54BBE8F1B624C6F00DFEFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54BBE961B624C6F00DFEFBA;
+			remoteInfo = CTFindGirl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54BBE971B624C6F00DFEFBA /* CTFindGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTFindGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54BBE9B1B624C6F00DFEFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54BBE9C1B624C6F00DFEFBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D54BBE9E1B624C6F00DFEFBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D54BBE9F1B624C6F00DFEFBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D54BBEA21B624C6F00DFEFBA /* CTFindGirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CTFindGirl.xcdatamodel; sourceTree = "<group>"; };
+		D54BBEA41B624C6F00DFEFBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D54BBEA51B624C6F00DFEFBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D54BBEA81B624C6F00DFEFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D54BBEAA1B624C6F00DFEFBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D54BBEAD1B624C6F00DFEFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D54BBEB31B624C6F00DFEFBA /* CTFindGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTFindGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54BBEB81B624C6F00DFEFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54BBEB91B624C6F00DFEFBA /* CTFindGirlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFindGirlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54BBE941B624C6F00DFEFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54BBEB01B624C6F00DFEFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54BBE8E1B624C6F00DFEFBA = {
+			isa = PBXGroup;
+			children = (
+				D54BBE991B624C6F00DFEFBA /* CTFindGirl */,
+				D54BBEB61B624C6F00DFEFBA /* CTFindGirlTests */,
+				D54BBE981B624C6F00DFEFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54BBE981B624C6F00DFEFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54BBE971B624C6F00DFEFBA /* CTFindGirl.app */,
+				D54BBEB31B624C6F00DFEFBA /* CTFindGirlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54BBE991B624C6F00DFEFBA /* CTFindGirl */ = {
+			isa = PBXGroup;
+			children = (
+				D54BBE9E1B624C6F00DFEFBA /* AppDelegate.h */,
+				D54BBE9F1B624C6F00DFEFBA /* AppDelegate.m */,
+				D54BBEA41B624C6F00DFEFBA /* ViewController.h */,
+				D54BBEA51B624C6F00DFEFBA /* ViewController.m */,
+				D54BBEA71B624C6F00DFEFBA /* Main.storyboard */,
+				D54BBEAA1B624C6F00DFEFBA /* Images.xcassets */,
+				D54BBEAC1B624C6F00DFEFBA /* LaunchScreen.xib */,
+				D54BBEA11B624C6F00DFEFBA /* CTFindGirl.xcdatamodeld */,
+				D54BBE9A1B624C6F00DFEFBA /* Supporting Files */,
+			);
+			path = CTFindGirl;
+			sourceTree = "<group>";
+		};
+		D54BBE9A1B624C6F00DFEFBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54BBE9B1B624C6F00DFEFBA /* Info.plist */,
+				D54BBE9C1B624C6F00DFEFBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D54BBEB61B624C6F00DFEFBA /* CTFindGirlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D54BBEB91B624C6F00DFEFBA /* CTFindGirlTests.m */,
+				D54BBEB71B624C6F00DFEFBA /* Supporting Files */,
+			);
+			path = CTFindGirlTests;
+			sourceTree = "<group>";
+		};
+		D54BBEB71B624C6F00DFEFBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54BBEB81B624C6F00DFEFBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54BBE961B624C6F00DFEFBA /* CTFindGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54BBEBD1B624C6F00DFEFBA /* Build configuration list for PBXNativeTarget "CTFindGirl" */;
+			buildPhases = (
+				D54BBE931B624C6F00DFEFBA /* Sources */,
+				D54BBE941B624C6F00DFEFBA /* Frameworks */,
+				D54BBE951B624C6F00DFEFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTFindGirl;
+			productName = CTFindGirl;
+			productReference = D54BBE971B624C6F00DFEFBA /* CTFindGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54BBEB21B624C6F00DFEFBA /* CTFindGirlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54BBEC01B624C6F00DFEFBA /* Build configuration list for PBXNativeTarget "CTFindGirlTests" */;
+			buildPhases = (
+				D54BBEAF1B624C6F00DFEFBA /* Sources */,
+				D54BBEB01B624C6F00DFEFBA /* Frameworks */,
+				D54BBEB11B624C6F00DFEFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54BBEB51B624C6F00DFEFBA /* PBXTargetDependency */,
+			);
+			name = CTFindGirlTests;
+			productName = CTFindGirlTests;
+			productReference = D54BBEB31B624C6F00DFEFBA /* CTFindGirlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54BBE8F1B624C6F00DFEFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					D54BBE961B624C6F00DFEFBA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D54BBEB21B624C6F00DFEFBA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D54BBE961B624C6F00DFEFBA;
+					};
+				};
+			};
+			buildConfigurationList = D54BBE921B624C6F00DFEFBA /* Build configuration list for PBXProject "CTFindGirl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54BBE8E1B624C6F00DFEFBA;
+			productRefGroup = D54BBE981B624C6F00DFEFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54BBE961B624C6F00DFEFBA /* CTFindGirl */,
+				D54BBEB21B624C6F00DFEFBA /* CTFindGirlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54BBE951B624C6F00DFEFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54BBEA91B624C6F00DFEFBA /* Main.storyboard in Resources */,
+				D54BBEAE1B624C6F00DFEFBA /* LaunchScreen.xib in Resources */,
+				D54BBEAB1B624C6F00DFEFBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54BBEB11B624C6F00DFEFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54BBE931B624C6F00DFEFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54BBEA01B624C6F00DFEFBA /* AppDelegate.m in Sources */,
+				D54BBEA31B624C6F00DFEFBA /* CTFindGirl.xcdatamodeld in Sources */,
+				D54BBEA61B624C6F00DFEFBA /* ViewController.m in Sources */,
+				D54BBE9D1B624C6F00DFEFBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54BBEAF1B624C6F00DFEFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54BBEBA1B624C6F00DFEFBA /* CTFindGirlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54BBEB51B624C6F00DFEFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54BBE961B624C6F00DFEFBA /* CTFindGirl */;
+			targetProxy = D54BBEB41B624C6F00DFEFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D54BBEA71B624C6F00DFEFBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54BBEA81B624C6F00DFEFBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D54BBEAC1B624C6F00DFEFBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54BBEAD1B624C6F00DFEFBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54BBEBB1B624C6F00DFEFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D54BBEBC1B624C6F00DFEFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54BBEBE1B624C6F00DFEFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTFindGirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D54BBEBF1B624C6F00DFEFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTFindGirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D54BBEC11B624C6F00DFEFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CTFindGirlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTFindGirl.app/CTFindGirl";
+			};
+			name = Debug;
+		};
+		D54BBEC21B624C6F00DFEFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CTFindGirlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTFindGirl.app/CTFindGirl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54BBE921B624C6F00DFEFBA /* Build configuration list for PBXProject "CTFindGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54BBEBB1B624C6F00DFEFBA /* Debug */,
+				D54BBEBC1B624C6F00DFEFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54BBEBD1B624C6F00DFEFBA /* Build configuration list for PBXNativeTarget "CTFindGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54BBEBE1B624C6F00DFEFBA /* Debug */,
+				D54BBEBF1B624C6F00DFEFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54BBEC01B624C6F00DFEFBA /* Build configuration list for PBXNativeTarget "CTFindGirlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54BBEC11B624C6F00DFEFBA /* Debug */,
+				D54BBEC21B624C6F00DFEFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D54BBEA11B624C6F00DFEFBA /* CTFindGirl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D54BBEA21B624C6F00DFEFBA /* CTFindGirl.xcdatamodel */,
+			);
+			currentVersion = D54BBEA21B624C6F00DFEFBA /* CTFindGirl.xcdatamodel */;
+			path = CTFindGirl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D54BBE8F1B624C6F00DFEFBA /* Project object */;
+}
